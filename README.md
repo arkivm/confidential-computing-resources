@@ -9,6 +9,7 @@
 * SGX [https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)
 
 ### Tools (SGX)
+
 * Official
   - https://01.org/intel-softwareguard-extensions
   - https://github.com/intel/linux-sgx
@@ -19,7 +20,10 @@
 #### Design
 
 #### Attack
-TODO
+
+* [A Survey of Published Attacks on Intel SGX](https://arxiv.org/pdf/2006.13598.pdf)
+* [Security Vulnerabilities of SGX and Countermeasures: A Survey](https://dl.acm.org/doi/10.1145/3456631)
+
 
 ## AMD SEV, SEV-ES, SEV-SNP
 
@@ -29,14 +33,16 @@ TODO
 * Linux kernel doc [https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html](https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html)
 
 ### Tools
+
 * https://github.com/AMDESE/AMDSEV
-* 
+ 
 
 ### Research Papers
 
 #### Design
+
 * [SEV-SNP White paper](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
-* 
+ 
 #### Attack
 
 * [CipherLeaks: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel](https://www.usenix.org/system/files/sec21-li-mengyuan.pdf)
