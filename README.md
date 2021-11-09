@@ -18,12 +18,23 @@
 ### Research Papers
 
 #### Design
-
+* [Intel SGX Explained](https://eprint.iacr.org/2016/086.pdf)
+* 
 #### Attack
 
 * [A Survey of Published Attacks on Intel SGX](https://arxiv.org/pdf/2006.13598.pdf)
 * [Security Vulnerabilities of SGX and Countermeasures: A Survey](https://dl.acm.org/doi/10.1145/3456631)
-
+* [SmashEx: Smashing SGX Enclaves Using Exceptions](https://n.ethz.ch/~sshivaji/publications/smashex_ccs21.pdf)
+* [SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)
+* [Faulty Point Unit: ABI Poisoning Attacks on Intel SGX](https://jovanbulck.github.io/files/acsac20-fpu.pdf)
+* [The Guard's Dilemma: Efficient Code-Reuse Attacks Against Intel SGX](https://www.usenix.org/conference/usenixsecurity18/presentation/biondo)
+* [AsyncShock: Exploiting Synchronisation Bugs in Intel SGX Enclaves](https://link.springer.com/content/pdf/10.1007%2F978-3-319-45744-4_22.pdf)
+* Foreshadow
+  - [FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution](https://foreshadowattack.eu/foreshadow.pdf)
+  - [Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution](https://foreshadowattack.eu/foreshadow-NG.pdf)
+  - [Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow](https://ieeexplore.ieee.org/abstract/document/8691527)
+* [Software Grand Exposure: SGX Cache Attacks Are Practical](https://www.usenix.org/conference/woot17/workshop-program/presentation/brasser)
+* 
 
 ## AMD SEV, SEV-ES, SEV-SNP
 
