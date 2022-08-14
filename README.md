@@ -53,13 +53,34 @@
 #### Design
 
 * [SEV-SNP White paper](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
- 
-#### Attack
 
-* [CipherLeaks: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel](https://www.usenix.org/system/files/sec21-li-mengyuan.pdf)
-* [SEVurity: No Security Without Integrity : Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b746/1j2LgvKzg1q)
-* [Exploiting Unprotected I/O Operations in AMD’s Secure Encrypted Virtualization](https://www.usenix.org/system/files/sec19-li-mengyuan_0.pdf)
-* [SEVered: Subverting AMD's Virtual Machine Encryption](https://dl.acm.org/doi/10.1145/3193111.3193112)
+#### Attacks
+
+**2022**
+* IEEE S&P'22 [A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833768)
+
+**2021**
+* ACSAC'21 [TLB Poisoning Attacks on AMD Secure Encrypted Virtualization](https://dl.acm.org/doi/10.1145/3485832.3485876)
+* CCS'21
+  - [CrossLine: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://dl.acm.org/doi/pdf/10.1145/3460120.3485253)
+  - [One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization](https://dl.acm.org/doi/10.1145/3460120.3484779)
+* IEEE S&P'21 [undeSErVed trust: Exploiting Permutation-Agnostic Remote Attestation](https://ieeexplore.ieee.org/abstract/document/9474294)
+* Usenix Sec'21 [CipherLeaks: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel](https://www.usenix.org/system/files/sec21-li-mengyuan.pdf)
+
+**2020**
+* IEEE S&P'20 [SEVurity: No Security Without Integrity : Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b746/1j2LgvKzg1q)
+* ROOTS'20 [Exploiting Interfaces of Secure Encrypted Virtual Machines](https://dl.acm.org/doi/abs/10.1145/3433667.3433668)
+
+**2019**
+* AsiaCCS'19 [The SEVerESt Of Them All: Inference Attacks Against Secure Virtual Enclaves](https://dl.acm.org/doi/pdf/10.1145/3321705.3329820)
+* CODASPY'19 [Extracting Secrets from Encrypted Virtual Machines](https://dl.acm.org/doi/10.1145/3292006.3300022)
+* Usenix Sec'19 [Exploiting Unprotected I/O Operations in AMD’s Secure Encrypted Virtualization](https://www.usenix.org/system/files/sec19-li-mengyuan_0.pdf)
+
+**2018**
+* EuroSec'18 [SEVered: Subverting AMD's Virtual Machine Encryption](https://dl.acm.org/doi/10.1145/3193111.3193112)
+
+**2017**
+* VEE'17 [Security Analysis of Encrypted Virtual Machines](https://dl.acm.org/doi/10.1145/3050748.3050763)
 
 ## IBM Power Protected Execution Facility (PEF)
 
