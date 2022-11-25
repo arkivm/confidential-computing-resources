@@ -19,8 +19,8 @@
 
 #### Design
 * [Intel SGX Explained](https://eprint.iacr.org/2016/086.pdf)
-* 
-#### Attack
+
+#### Attacks
 
 * [A Survey of Published Attacks on Intel SGX](https://arxiv.org/pdf/2006.13598.pdf)
 * [Security Vulnerabilities of SGX and Countermeasures: A Survey](https://dl.acm.org/doi/10.1145/3456631)
@@ -34,7 +34,7 @@
   - [Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution](https://foreshadowattack.eu/foreshadow-NG.pdf)
   - [Breaking Virtual Memory Protection and the SGX Ecosystem with Foreshadow](https://ieeexplore.ieee.org/abstract/document/8691527)
 * [Software Grand Exposure: SGX Cache Attacks Are Practical](https://www.usenix.org/conference/woot17/workshop-program/presentation/brasser)
-* 
+* [ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture](https://www.usenix.org/system/files/sec22-borrello.pdf)
 
 ## AMD SEV, SEV-ES, SEV-SNP
 
@@ -42,11 +42,13 @@
 
 * [https://developer.amd.com/sev/](https://developer.amd.com/sev/)
 * Linux kernel doc [https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html](https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html)
+* SEV API doc [https://www.amd.com/system/files/TechDocs/55766_SEV-KM_API_Specification.pdf](https://www.amd.com/system/files/TechDocs/55766_SEV-KM_API_Specification.pdf)
 
 ### Tools
 
 * https://github.com/AMDESE/AMDSEV
- 
+* Secure VM Service Module (SVSM)
+  - https://github.com/AMDESE/linux-svsm
 
 ### Research Papers
 
@@ -54,10 +56,14 @@
 
 * [SEV-SNP White paper](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
 
-#### Attacks
+#### Attacks/Mitigations
+
+**2023**
+* Usenix Sec'23 [CipherH: Automated Detection of Ciphertext Side-channel Vulnerabilities in Cryptographic Implementations](https://www.usenix.org/system/files/sec23summer_289-deng-prepub.pdf)
 
 **2022**
 * IEEE S&P'22 [A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833768)
+* Arxiv [Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software](https://arxiv.org/pdf/2210.13124.pdf)
 
 **2021**
 * ACSAC'21 [TLB Poisoning Attacks on AMD Secure Encrypted Virtualization](https://dl.acm.org/doi/10.1145/3485832.3485876)
@@ -93,8 +99,7 @@
 
 * [Confidential computing for OpenPOWER](https://dl.acm.org/doi/10.1145/3447786.3456243)
 
-#### Attack
-
+#### Attacks
 
 ## Keystone (RISC-V)
 
