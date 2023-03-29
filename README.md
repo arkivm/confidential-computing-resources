@@ -56,6 +56,10 @@
 
 * [SEV-SNP White paper](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
 
+**2022**
+* ACSAC'22 [CoCoTPM: Trusted Platform Modules for Virtual Machines in Confidential Computing Environments](https://dl.acm.org/doi/abs/10.1145/3564625.3564648)
+
+
 #### Attacks/Mitigations
 
 **2023**
