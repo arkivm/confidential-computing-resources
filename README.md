@@ -49,6 +49,7 @@
 * https://github.com/AMDESE/AMDSEV
 * Secure VM Service Module (SVSM)
   - https://github.com/AMDESE/linux-svsm
+  - https://github.com/coconut-svsm/svsm
 
 ### Research Papers
 
@@ -56,13 +57,20 @@
 
 * [SEV-SNP White paper](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
 
+**2023**
+
+* Usenix ATC'23 [Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines](https://ipads.se.sjtu.edu.cn/_media/publications/liatc23.pdf)
 **2022**
+
 * ACSAC'22 [CoCoTPM: Trusted Platform Modules for Virtual Machines in Confidential Computing Environments](https://dl.acm.org/doi/abs/10.1145/3564625.3564648)
 
 
 #### Attacks/Mitigations
 
 **2023**
+
+* DIMVA'23 [PwrLeak: Exploiting Power Reporting Interface for Side-Channel Attacks on AMD SEV](https://link.springer.com/chapter/10.1007/978-3-031-35504-2_3)
+* CODASPY'23 [Protecting Encrypted Virtual Machines from Nested Page Fault Controlled Channel](https://dl.acm.org/doi/pdf/10.1145/3577923.3583659)
 * Usenix Sec'23 [CipherH: Automated Detection of Ciphertext Side-channel Vulnerabilities in Cryptographic Implementations](https://www.usenix.org/system/files/sec23summer_289-deng-prepub.pdf)
 
 **2022**
