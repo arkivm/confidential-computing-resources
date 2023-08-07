@@ -1,6 +1,5 @@
 # Resources on confidential computing
 
-
 ## Intel SGX | TDX
 
 ### Official resources
@@ -43,6 +42,7 @@
 * [https://developer.amd.com/sev/](https://developer.amd.com/sev/)
 * Linux kernel doc [https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html](https://www.kernel.org/doc/html/latest/virt/kvm/amd-memory-encryption.html)
 * SEV API doc [https://www.amd.com/system/files/TechDocs/55766_SEV-KM_API_Specification.pdf](https://www.amd.com/system/files/TechDocs/55766_SEV-KM_API_Specification.pdf)
+* SVSM Specification [https://www.amd.com/system/files/TechDocs/58019_1.00.pdf](https://www.amd.com/system/files/TechDocs/58019_1.00.pdf)
 
 ### Tools
 
@@ -60,6 +60,7 @@
 **2023**
 
 * Usenix ATC'23 [Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines](https://ipads.se.sjtu.edu.cn/_media/publications/liatc23.pdf)
+
 **2022**
 
 * ACSAC'22 [CoCoTPM: Trusted Platform Modules for Virtual Machines in Confidential Computing Environments](https://dl.acm.org/doi/abs/10.1145/3564625.3564648)
