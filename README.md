@@ -59,6 +59,7 @@
 
 **2023**
 
+* ACSAC'23 [Remote attestation of confidential VMs using ephemeral vTPMs](https://dl.acm.org/doi/pdf/10.1145/3627106.3627112)
 * Usenix ATC'23 [Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines](https://ipads.se.sjtu.edu.cn/_media/publications/liatc23.pdf)
 
 **2022**
